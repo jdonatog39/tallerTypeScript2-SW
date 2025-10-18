@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TV Series</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+<body class="p-4">
+  <h1>TV Series</h1>
+
+   <!-- aqui me toco consultar para hacer el tema de los contenedores con el bootstrap -->
+  <div class="d-flex" style="gap: 20px; align-items: flex-start; flex-wrap: nowrap;">
+
+    <div style="flex: 2;">
+      <table class="table table-striped" style="width: 100%;">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Channel</th>
+            <th scope="col">Seasons</th>
+          </tr>
+        </thead>
+        <tbody id="series"></tbody>
+      </table>
+      <p id="average-seasons"></p>
+    </div>
+
+    <div id="card-container" style="flex: 1; min-width: 200px;"></div>
+
+  </div>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

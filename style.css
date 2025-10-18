@@ -1,0 +1,51 @@
+h1 {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px;
+  font-family: Arial;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 50%;
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.table thead th {
+  background-color: #f0ebeb;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+
+.table tbody td, 
+.table tbody th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+
+.table a {
+  color: #3472f8;
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}
+
+#card-container .card {
+  margin-top: 20px;
+  width: 20rem;
+}
